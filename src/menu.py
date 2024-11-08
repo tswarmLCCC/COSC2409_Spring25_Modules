@@ -1,5 +1,3 @@
-# /d:/LCCC_Curriclulum/Homework/COSC2409_Spring25_Modules/src/menu.py
-
 def display_menu(options=None):
     """
     Display a menu of options and return the user's choice.
@@ -75,6 +73,9 @@ def main():
             break
         print(f"You chose: {options[choice]}")
 
+#print("Where is this being printed?, ", __name__)
+
 if __name__ == "__main__":
+    print("Hi!  We are testing the menu module")
+    print_header("Test Menu Module")
     main()
-    default_options = ["Option 1", "Option 2", "Option 3", "Exit"]

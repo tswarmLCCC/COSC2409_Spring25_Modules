@@ -28,4 +28,5 @@ def main():
     print(f"Your height is: {height} meters\n")
 
 if __name__ == "__main__":
+   # print(__name__)
     main()
